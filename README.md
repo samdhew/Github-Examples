@@ -17,6 +17,7 @@ There are 3 ways to clone: HTTPS, SSH & GitHub CLI
 
 ```sh
 git clone https://github.com/samdhew/Github-Examples.git
+git clone https://github.com/samdhew/Github-Examples.git -b branch_name
 ```
 
 ## Status
@@ -28,8 +29,22 @@ git status
 
 ## Commits
 ```sh
-git commit -a -m "commit message"
 git commit -m "commit message"
+git commit -a -m "commit message"
+```
+
+## Pull
+Pull remote origin to local repo
+
+```sh
+git pull origin main
+```
+
+## Push
+Pushes local repo to remote origin
+
+```sh
+git push -u origin main
 ```
 
 ## Branches
