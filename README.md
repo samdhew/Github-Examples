@@ -50,3 +50,7 @@ git add .
 
 ## Reset
 Reset allow you to move staged changes to unstaged
+
+```sh
+git reset
+```
