@@ -41,7 +41,7 @@ git commit -m "commit message"
 ## Merging
 
 ## Add
-Adding changed files to stage
+Adds changed files to stage
 
 ```sh
 git add README.md
@@ -49,8 +49,15 @@ git add .
 ```
 
 ## Reset
-Reset allow you to move staged changes to unstaged
+Moves staged changes to unstaged
 
 ```sh
 git reset
+```
+
+## Log
+Shows recent commits
+
+```sh
+git log
 ```
