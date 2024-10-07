@@ -28,13 +28,15 @@ git status
 ```
 
 ## Commits
+Commits staged changes to be pushed to remote origin
+
 ```sh
 git commit -m "commit message"
 git commit -a -m "commit message"
 ```
 
 ## Pull
-Pull remote origin to local repo
+Pulls remote origin to local repo
 
 ```sh
 git pull origin main
