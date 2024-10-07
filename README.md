@@ -16,8 +16,8 @@ There are 3 ways to clone: HTTPS, SSH & GitHub CLI
 ### HTTPS
 
 ```sh
-git clone https://github.com/samdhew/Github-Examples.git
-git clone https://github.com/samdhew/Github-Examples.git -b branch_name
+git clone <repo_url>
+git clone <repo_url> -b <branch_name>
 ```
 
 ## Status
@@ -52,6 +52,12 @@ git push -u origin main
 ## Branches
 
 ## Remotes
+
+```sh
+git remote -v
+git remote add "origin" <repo_url>
+git remote set-url "origin" <repo_url>
+```
 
 ## Stashing
 
