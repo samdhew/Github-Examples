@@ -75,12 +75,37 @@ git push -u origin main
 
 ## Branches
 
+List local branches
+```sh
+git branch
+```
+
+List remote branches
+```sh
+git branch
+```
+
+Change current branch
+```sh
+git checkout <branch_name>
+```
+
+Create new branch
+```sh
+git branch <new_branch_name>
+```
+
+Create new branch and change
+```sh
+git checkout -b <new_branch_name>
+```
+
 ## Remotes
 
 ```sh
 git remote -v
-git remote add "origin" <repo_url>
-git remote set-url "origin" <repo_url>
+git remote add "origin" https://github.com/<username>/<repo_name>.git
+git remote set-url "origin" https://github.com/<username>/<repo_name>.git
 ```
 
 ## Stashing
