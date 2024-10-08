@@ -82,7 +82,18 @@ git branch
 
 List remote branches
 ```sh
-git branch
+git branch -r
+```
+
+List local and remote branches
+```sh
+git branch -a
+git branch -l 'feature/*'
+```
+
+Print current branch
+```sh
+git branch --show-current
 ```
 
 Change current branch
@@ -99,6 +110,23 @@ Create new branch and change
 ```sh
 git checkout -b <new_branch_name>
 ```
+
+Delete existing branch
+```sh
+git branch -d <branch_name>
+git branch -D <branch_name>
+```
+
+Rename branch
+```sh
+git branch -m <new_branch_name>
+git branch -m <old_branch_name> <new_branch_name>
+```
+
+Copy branch
+```sh
+git branch -c <new_branch_name>
+git branch -c <old_branch_name> <new_branch_name>
 
 ## Remotes
 
