@@ -184,6 +184,7 @@ git reset
 ```
 
 ## Remove
+
 Removes file/folder from git
 ```sh
 git rm --cached <file_name>
