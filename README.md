@@ -183,6 +183,19 @@ Moves staged changes to unstaged
 git reset
 ```
 
+## Remove
+Removes file/folder from git
+```sh
+git rm --cached <file_name>
+git rm --cached -r <folder_name>
+```
+
+Removes file/folder from git and local file system
+```sh
+git rm <file_name>
+git rm -r <folder_name>
+```
+
 ## Log
 Shows recent commits
 
