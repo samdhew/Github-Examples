@@ -127,6 +127,7 @@ Copy branch
 ```sh
 git branch -c <new_branch_name>
 git branch -c <old_branch_name> <new_branch_name>
+```
 
 ## Remotes
 
