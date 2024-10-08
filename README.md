@@ -36,6 +36,12 @@ git clone git@github.com:<username>/<repo_name>.git
 git clone git@github.com:<username>/<repo_name>.git -b <branch_name>
 ```
 
+### GitHub CLI
+
+```sh
+gh repo clone <username>/<repo_name>
+```
+
 ## Status
 Shows what files will or will not be commited
 
