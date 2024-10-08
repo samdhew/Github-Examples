@@ -139,7 +139,28 @@ git remote set-url "origin" https://github.com/<username>/<repo_name>.git
 
 ## Stashing
 
+Stash current changes (Keep a side for time being)
+```sh
+git add .
+git stash
+```
+
+List stashed changes
+```sh
+git stash list
+```
+
+Pop stashed changes (Bring back)
+```sh
+git stash pop
+```
+
 ## Merging
+Merges one branch to another
+
+```sh
+git merge main
+```
 
 ## Add
 Adds changed files to stage
