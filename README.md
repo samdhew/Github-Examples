@@ -57,6 +57,9 @@ Commits staged changes to be pushed to remote origin
 ```sh
 git commit -m "commit message"
 git commit -a -m "commit message"
+git commit --amend --no-edit
+git commit --amend -m "commit message"
+git commit --allow-empty -m "commit message"
 ```
 
 ## Pull
@@ -99,6 +102,7 @@ git branch --show-current
 Change current branch
 ```sh
 git checkout <branch_name>
+git checkout <commit_hash>
 ```
 
 Create new branch
