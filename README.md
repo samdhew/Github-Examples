@@ -39,7 +39,9 @@ git clone git@github.com:<username>/<repo_name>.git -b <branch_name>
 ### GitHub CLI
 
 ```sh
+gh auth login
 gh repo clone <username>/<repo_name>
+gh repo clone <username>/<repo_name> -b <branch_name>
 ```
 
 ## Status
