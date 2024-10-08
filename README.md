@@ -142,7 +142,8 @@ git remote set-url "origin" https://github.com/<username>/<repo_name>.git
 Stash current changes (Keep a side for time being)
 ```sh
 git add .
-git stash
+git stash #Saves with random stash name
+git stash save <stash_name>
 ```
 
 List stashed changes
@@ -153,6 +154,7 @@ git stash list
 Pop stashed changes (Bring back)
 ```sh
 git stash pop
+git stash apply #Pops the last one
 ```
 
 ## Merging
