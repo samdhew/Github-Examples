@@ -52,7 +52,7 @@ git status
 ```
 
 ## Commits
-Commits staged changes to be pushed to remote origin
+Commits staged changes to be pushed to remote branch
 
 ```sh
 git commit -m "commit message"
@@ -63,17 +63,17 @@ git commit --allow-empty -m "commit message"
 ```
 
 ## Pull
-Pulls remote origin to local repo
+Pulls updates from remote branch to local branch
 
 ```sh
-git pull origin main
+git pull <remote_name> main
 ```
 
 ## Push
-Pushes local repo to remote origin
+Pushes updates from local branch to remote branch
 
 ```sh
-git push -u origin main
+git push -u <remote_name> main
 ```
 
 ## Branches
@@ -91,7 +91,7 @@ git branch -r
 List local and remote branches
 ```sh
 git branch -a
-git branch -l 'feature/*'
+git branch -l "feature/*"
 ```
 
 Print current branch
@@ -137,8 +137,10 @@ git branch -c <old_branch_name> <new_branch_name>
 
 ```sh
 git remote -v
-git remote add "origin" https://github.com/<username>/<repo_name>.git
-git remote set-url "origin" https://github.com/<username>/<repo_name>.git
+git remote add <remote_name> https://github.com/<username>/<repo_name>.git
+git remote set-url <remote_name> https://github.com/<username>/<repo_name>.git
+git remote remove <remote_name>
+git remote rename <old_remote_name> <new_remote_name>
 ```
 
 ## Stashing
